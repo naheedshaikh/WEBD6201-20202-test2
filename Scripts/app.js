@@ -112,7 +112,7 @@ let app;
         $("#newTaskButton").on("click", function(){
 
             let newTaskText = $("#taskTextInput").val();
-            
+
             let newTaskItem =  `<li class="list-group-item" id="task">
             <span id="taskText">Example Task 1</span>
             <span class="float-right">
@@ -135,7 +135,7 @@ let app;
 
         // Task 1 c
         $("ul").on("click", ".deleteButton", function(){
-           
+           $(this).parent().remove();
         });
     }
 
