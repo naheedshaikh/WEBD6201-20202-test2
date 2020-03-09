@@ -1,3 +1,11 @@
+/**
+* Name: Naheed Shaikh
+* Stdent Id: 100713081
+* Description: Test 2 - DOM Mainipulation with jQuery
+* Date Completed: 08-MAR-2020 
+* Source Code:https://github.com/durhamprogrammer/WEBD6201-W2020-Lesson6 
+* My Github Link: https://github.com/naheedshaikh/WEBD6201-20202-test2.git
+*/
 class Contact
 {
     constructor(contactName = "", emailAddress = "", contactNumber = "", contactMessage = "")
